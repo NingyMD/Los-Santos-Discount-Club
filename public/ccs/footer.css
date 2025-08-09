@@ -1,0 +1,28 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  #content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  #footert1 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;            /* Footer height */
+    color: rgba(255, 255, 255, 0.75);
+  }
+.version u::before{
+    content: "v0.1-alpha";
+}
+footer {
+    background-color: rgba(49, 49, 49, 0.5);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+    text-indent: 10px;
+    line-height: 250%;
+    overflow: hidden;
+  }
