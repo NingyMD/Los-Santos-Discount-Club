@@ -15,7 +15,7 @@
     color: rgba(255, 255, 255, 0.75);
   }
 .version u::before{
-    content: "v0.1-alpha";
+    content: "v0.2-alpha";
 }
 footer {
     background-color: rgba(49, 49, 49, 0.5);
